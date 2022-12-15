@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beauty Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="Part1">
+       
+        <ul>
+        <li><a href="#Part1">Home</a></li>
+            <li><a href="#part2">Our Services</a></li>
+            <li><a href="#part3">Our Products</a></li>
+            <li><a href="#page4">Contact Us</a></li>
+        </ul>
+        
+        
+         <span id="icon" onclick="openmenu()">&#9776;</span>
+           
+       <div class="menu" id ="menu">
+    
+           <a href=".text1">Home</a><br>
+            <a href="#part2">Our Services</a><br>
+            <a href="#part3">Our Products</a><br>
+            <a href="#footer">Contact Us</a><br>
+        
+           </div>
+    
+        <div class="img1">
+        <img src="1.jpg">
+            <h1 class="logo">Aralewa</h1>
+        </div>
+        <div class="text1">
+            <hr>
+        <h1 class="main"><span class="autotype">Your Beauty is our<br> concern.</span></h1>
+            <p class="mainp">At Aralewa beauty studio, we asure you<br> quality beauty programs</p>
+            <button class="btn2">Learn More</button>
+        </div>
+    
+    </section>
+    
+    <section id="part2">
+        <hr class="hr1">
+<h1 class="services">Our Services</h1>
+        
+        <div class="card">
+        <div class="card1">
+            <img src="2.jpg" id="card2">
+            <h2>Make-Up Tutorials</h2>
+            </div>
+            
+             <div class="card1">
+            <img src="5.jpg" id="card2">
+                 <h2>Beauty Cosmetics</h2>
+            </div>
+            
+             <div class="card1">
+            <img src="3.jpg" id="card2">
+                 <h2>Gele Tieing</h2>
+            </div>
+            
+             <div class="card1">
+            <img src="6.jpg" id="card2">
+                 <h2>Make-Up</h2>
+            </div>
+        
+        </div>
+    </section>
+    
+    <section id="part3">
+        <hr class="h3">
+    <h1 class="h1">Always expect the <br>best from us.</h1>
+        <p class="pp">Aralewa always ensure its best <br>to customers</p>
+        
+        <div class="cards">
+    
+            <img src="cream.jpg" class="ccd">
+            <img src="cream2.jpg" class="ccs">
+        </div>
+        
+        <img src="7.jpg" id="img4">
+        <img src="8.jpg" id="img5">
+        
+         
+    </section>
+    
+    <section id="page4">
+        <hr class="hr1">
+    <h1 class="services">Contact Us</h1>
+        
+        <div class="contact">
+        <h3>Contact us at:<br><br>
+            <img src="4.jpg" id="Gmail">  Phone:08061281047<br>
+            <img src="3.png" id="Gmail2">  eMail:mabelesan2005@gmail.com<br><br><br>
+            Location:<br>
+            6th Off Cresent,Alausa,Akute.<br>
+            Ogun State.
+            </h3>
+        </div>
+         <img src="11.jpg" id="jpg">
+    </section>
+    
+   <footer id="footer">
+        <h1 class="hhh">Visit Aralewa Now!</h1>
+        <p class="p">Don't hesitate to visit Aralewa for their<br> unique beauty service</p>
+        
+        <input class="text"><button class="bbn">Message</button>
+        
+       <h6>Phone:08061281047</h6>
+        <div class="icons">
+            <h4>Follow us</h4>
+        <img src="facebook.jpg" id="icons">
+             <img src="twitter.png" id="icons2">
+            <img src="bird.png" id="icons3">
+            
+            
+        </div>
+       
+       <div class="pho">
+           <h6>Phone:08061281047</h6><br>
+           <h6>eMail:mabelesan2005@gmail.com</h6>
+        </div>
+       
+        <h5>PRIVATE POLICY || TERMS AND CONDITION APPLIED </h5>
+    
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script>
+    var typed = new Typed(".autotype",{
+        strings: ["Your Beauty is our<br> concern.","We are at your<BR> service."],
+        typeSpeed:100,
+        backSpeed:100,
+        loop: true
+    })
+    
+    let popup = document.getElementById("menu")
+    
+    function openmenu(){
+        popup.classList.toggle("open")
+    }
+    </script>
+    
+</body>
+</html>
